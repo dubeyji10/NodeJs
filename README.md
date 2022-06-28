@@ -1,6 +1,6 @@
 # Getting Started with Node.js
 
-## Following Node.jsNotes for Professionals [Book]
+## Following Node.js Notes for Professionals [Book]
 
 
 - Chapter 1 Getting Started
