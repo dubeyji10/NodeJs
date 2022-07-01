@@ -1,0 +1,35 @@
+body{
+    background: #000;
+    font-size: 2.33em;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-gap: 50px;
+    color: aliceblue;
+}
+
+/* everything is passed to body tag and i have split the body into 3 parts header body(mycontent) and footer*/
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: space-between;
+}
+
+.mycontent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap:50px;
+}
+
+.mycontent div{
+    text-align: justify;
+}
+
+#footer{
+    font-size: 3.11em;
+    background: url("/images/mybg.jpeg") left bottom;
+    background-size: cover;
+}
+
+

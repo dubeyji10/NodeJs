@@ -61,3 +61,18 @@ app.patch('/', (req, res) => { /* */ })
 
 > To make express web application modular use router factories
 
+# RENDERING PAGES
+
+Modern web apps are data-driven and need views that can display data dynamically. While you can create good-looking views using static HTML templates, you can't hydrate them with data from the server.
+
+Instead, you use template engines like Pug to create dynamic views that can render UI elements conditionally and that you can hydrate with values from the server. What makes Pug stand out from other offerings is its concise syntax and its support for template inheritance to compose pages easily.<br>
+[read more from the original source](https://auth0.com/blog/create-a-simple-and-stylish-node-express-app/)
+
+## Using a template Engine
+### some popular template engines include : 
+- pug ( Jade Jade has been renamed to pug as of December 2015 )
+- ejs
+- marko
+- ets
+- express-handlebars
+- Mustache
